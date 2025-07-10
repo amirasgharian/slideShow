@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideShow</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slide-container">        
+            <div class="slide hide">
+                <div class="number">1/4</div>
+                <img class="img" src="./pics/grigorii-shcheglov-mKU8DKbDKY0-unsplash.jpg" alt="">
+                <div class="text">picture one</div>
+            </div>
+            <div class="slide hide">
+                <div class="number">2/4</div>
+                <img class="img" src="./pics/lukas-seitz-iwYm_23zLI0-unsplash.jpg" alt="">
+                <div class="text">picture two</div>
+            </div>
+            <div class="slide hide">
+                <div class="number">3/4</div>
+                <img class="img" src="./pics/marek-piwnicki-YZFkznEvbPk-unsplash.jpg" alt="">
+                <div class="text">picture three</div>
+            </div>
+            <div class="slide hide">
+                <div class="number">4/4</div>
+                <img class="img" src="./pics/toa-heftiba-ZoUKs6s0AV0-unsplash.jpg" alt="">
+                <div class="text">picture four</div>
+            </div>
+
+        </div>
+        <span class="pre" onclick="controlling(-1)">&lt;</span>
+        <span class="next" onclick="controlling(1)">&gt;</span>
+    </div                                                                                                                                        ;}>
+
+    <div class="dot-container">
+        <span class="dot" onclick="selectDot(1)"></span>
+        <span class="dot" onclick="selectDot(2)"></span>
+        <span class="dot" onclick="selectDot(3)"></span>
+        <span class="dot" onclick="selectDot(4)"></span>
+    </div>  
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
